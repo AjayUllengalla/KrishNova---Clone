@@ -64,30 +64,59 @@ function Hero() {
             </div>
             {/* right-side  */}
             <div className="col-md-7">
-              <div className="card card-body glass-card">
-                <div>
-                  <video
-                    src="videos/product-lab.mp4"
-                    class="w-full rounded-xl shadow"
-                  ></video>
-                  <div  className="d-flex align-items-center gap-3">
-                    <div>
-                        <img src="https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?q=80&w=1200&auto=format&fit=crop&s=placeholder" className=" rounded-3" style={{width:"70px"}}/>
-                    </div>
-                    <div className="mt-2">
-                        <h2 className="text-dim">KrishNova — Product Lab</h2>
-                        <p className="text-dim">Hands-on labs, course content, and cloud-native projects</p>
-                    </div>
+              <div className="glass-card p-5 rounded-4">
+                {/* Video */}
+                <video
+                  src="https://youtu.be/VmxMVthU8ic?si=9dHqv9Xp6Un1oLWy"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="w-100 rounded-4 mb-4"
+                />
+
+                {/* Title Section */}
+                <div className="d-flex align-items-center gap-3 mb-3">
+                  <img
+                    src="https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?q=80&w=1200"
+                    className="rounded-3"
+                    style={{
+                      width: "60px",
+                      height: "60px",
+                      objectFit: "cover",
+                    }}
+                    alt="lab"
+                  />
+
+                  <div>
+                    <h5 className="text-white mb-1">KrishNova — Product Lab</h5>
+                    <p className="text-dim mb-0 small">
+                      Hands-on labs, course content & cloud-native projects
+                    </p>
+                  </div>
+                </div>
+
+                {/* Featured */}
+                <div className="mb-3">
+                  <p className="text-dim small mb-1">Featured</p>
+                  <h6 className="text-white mb-0">AI + IoT Capstone</h6>
+                </div>
+
+                {/* Channel + Watch */}
+                <div className="d-flex justify-content-between align-items-center mb-4">
+                  <div>
+                    <p className="text-dim small mb-1">Channel</p>
+                    <h6 className="text-white mb-0">KrishX Labs</h6>
                   </div>
 
+                  <button className="btn btn-outline-light">Watch</button>
                 </div>
-                <div className="text-dim mt-3">
-                    <p>Featured</p>
-                    <h6>AI + IoT Capstone</h6>
-                </div>
-                 <div className="text-dim mt-3">
-                    <p>Channel</p>
-                    <h6>KrishX Labs</h6>
+
+                {/* Action Buttons */}
+                <div className="d-flex gap-3">
+                  <button className="btn btn-light btn-primary-custom">Let’s Talk</button>
+
+                  <button className="btn btn-outline-light">Visit HTA</button>
                 </div>
               </div>
             </div>
