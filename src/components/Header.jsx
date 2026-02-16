@@ -7,12 +7,12 @@ function Header() {
     <section className="mb-3">
       <Navbar expand="lg" fixed="top" className="custom-navbar">
         <Container>
-          <div className="d-flex gap-1">
+          <div className="d-flex gap-1 align-items-center">
             <h2 className="btn btn-warning brand-badge rounded-4 text-center p-2">
               KN
             </h2>
             <h4>Krishnova</h4>
-            {/* <p><span>HTA World-A brand of Krishna</span></p> */}
+           
           </div>
           <Navbar.Toggle />
           <div className="navbar " >
