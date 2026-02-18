@@ -3,7 +3,11 @@ import React from "react";
 function About () {
     return(
         <>
-        <h1>Helo</h1>
+        <section className="mt-4">
+            <div className="container">
+                
+            </div>
+        </section>
         </>
     )
 }
