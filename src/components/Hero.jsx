@@ -39,7 +39,7 @@ function Hero() {
                 <a className="inline-flex items-center gap-3 px-5 py-3 rounded-xl cta text-white font-semibold shadow-lg btn btn-success">
                   Explore Brands
                 </a>
-                <a className="inline-flex items-center gap-3 px-5 py-3 rounded-xl cta text-white font-semibold shadow-lg btn btn-outline-light">
+                <a className="inline-flex items-center gap-3 px-5 py-3 rounded-xl cta  font-semibold shadow-lg btn btn-outline-light">
                   KrishX Labs
                 </a>
               </div>
@@ -125,15 +125,19 @@ function Hero() {
       </section>
       <section className="mt-4">
         <div className="container">
-            <div className="d-flex flex-wrap gap-4 mt-4">
-                <div className="glass-card p-3 px-4 rounded-3">
-                  <h6 className="text-dim mb-1">CEO</h6>
-                  <h5 className="mb-0 text-white">Krishna Koppula</h5>
+            <div className="row gap-4 mt-4">
+                <div className="col-md-3 glass-card p-3  rounded-3">
+                  <p className=" text-sm text-white mb-1">Enterprise Training</p>
+                  <span className="mb-0 text-dim">Custom skilling programs for teams, upskilling, and hiring pipelines.</span>
                 </div>
 
-                <div className="glass-card p-3 px-5 rounded-3">
-                  <h6 className="text-dim mb-1">Brand</h6>
-                  <h5 className="mb-0 text-white">HTA World</h5>
+                <div className="col-md-4 glass-card p-3 rounded-3">
+                  <p className=" text-sm text-white mb-1">Academic Partnerships</p>
+                  <p className="mb-0 text-dim">Curricula, labs, and real-world projects integrated into <br></br>courses.</p>
+                </div>
+                   <div className="col-md-4 glass-card p-3  rounded-3">
+                  <p className="text-sm text-white mb-1">Product R&D</p>
+                  <span className="mb-0 text-dim">Incubation, prototypes, and production-ready solutions.</span>
                 </div>
               </div>
 
