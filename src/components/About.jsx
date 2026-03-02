@@ -38,24 +38,50 @@ function About() {
           </div>
         </div>
         <div className="mt-4">
-          <div className="container">
-            <h2 className="text-white">Our Brands & Channels</h2>
-            <div className="row">
-              <div className="col-md-4 glass-card rounded-4 p-3 mt-5 gap-3">
-                <h6 className="text-white">Horizon Tech Alliance (HTA)</h6>
-                <p className="text-dim">Training, corporate skilling and tech community. Visit htaworld.com.</p>
-              </div>
-              <div className="col-md-4 glass-card rounded-4 p-3 mt-5 gap-3">
-                <h6 className="text-white">KrishX Labs</h6>
-                <p className="text-dim">YouTube channel and lab demos for practical coding, IoT, cloud and full-stack projects. Watch here.</p>
-              </div>
-              <div className="col-md-4 glass-card rounded-4 p-3 mt-5 gap-3">
-                <h6 className="text-white">KrishNova</h6>
-                <p className="text-dim">Parent company, brand strategy, and product incubation.</p>
-              </div>
+         <div className="container py-5">
+  <h2 className="text-white fw-bold mb-4">
+    Our Brands & Channels
+  </h2>
 
-            </div>
-          </div>
+  <div className="row g-4">
+
+    <div className="col-md-4">
+      <div className="glass-card rounded-4 p-4 h-100">
+        <h6 className="text-white fw-semibold mb-3">
+          Horizon Tech Alliance (HTA)
+        </h6>
+        <p className="text-dim mb-0">
+          Training, corporate skilling and tech community.
+          Visit htaworld.com.
+        </p>
+      </div>
+    </div>
+
+    <div className="col-md-4">
+      <div className="glass-card rounded-4 p-4 h-100">
+        <h6 className="text-white fw-semibold mb-3">
+          KrishX Labs
+        </h6>
+        <p className="text-dim mb-0">
+          YouTube channel and lab demos for practical coding,
+          IoT, cloud and full-stack projects. Watch here.
+        </p>
+      </div>
+    </div>
+
+    <div className="col-md-4">
+      <div className="glass-card rounded-4 p-4 h-100">
+        <h6 className="text-white fw-semibold mb-3">
+          KrishNova
+        </h6>
+        <p className="text-dim mb-0">
+          Parent company, brand strategy, and product incubation.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
         </div>
       </section>
     </>

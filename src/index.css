@@ -215,3 +215,58 @@ body {
 .social-link:hover {
   color: #06b6d4;
 }
+
+.cta-section {
+  padding-bottom: 120px;
+}
+
+/* Main Rounded Container */
+.cta-box {
+  padding: 40px 50px;
+  border-radius: 20px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(6, 182, 212, 0.08),
+    rgba(6, 182, 212, 0.02)
+  );
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Small top text */
+.cta-small {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+/* Main bold heading */
+.cta-main {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.8rem;
+  max-width: 650px;
+}
+
+/* Button */
+.cta-btn {
+  background: linear-gradient(
+    90deg,
+    #06b6d4,
+    #22d3ee
+  );
+  border: none;
+  padding: 14px 32px;
+  color: white;
+  font-weight: 500;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(6, 182, 212, 0.4);
+}
